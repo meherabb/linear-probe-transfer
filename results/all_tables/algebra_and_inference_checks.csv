@@ -1,0 +1,14 @@
+check,passed
+ridge-corrected identity,True
+mean plus covariance disagreement decomposition,True
+OLS empirical identity,True
+PCA sign flip preserves CKA,True
+native lift removes sign artifact,True
+CKA scale invariance,True
+bernstein contains deterministic endpoint -1.0,True
+betting contains deterministic endpoint -1.0,True
+bernstein contains deterministic endpoint 1.0,True
+betting contains deterministic endpoint 1.0,True
+betting stake uses past only,True
+zero observed range does not imply zero uncertainty,True
+zero failures have nonzero binomial uncertainty,True
