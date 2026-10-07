@@ -1,0 +1,15 @@
+# Runtime outputs and large local caches
+/aistats2027_v3_outputs/
+/native_feature_cache_v3/
+/experiment_checkpoints_v3/
+/results/recovered_tables/
+*.npz
+
+# Python/Jupyter tooling
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
