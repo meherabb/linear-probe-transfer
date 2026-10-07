@@ -1,0 +1,25 @@
+check,passed
+ridge-corrected identity,True
+mean plus covariance disagreement decomposition,True
+OLS empirical identity,True
+PCA sign flip preserves CKA,True
+native lift removes sign artifact,True
+CKA scale invariance,True
+bernstein contains deterministic endpoint -1.0,True
+betting contains deterministic endpoint -1.0,True
+bernstein contains deterministic endpoint 1.0,True
+betting contains deterministic endpoint 1.0,True
+betting stake uses past only,True
+zero observed range does not imply zero uncertainty,True
+zero failures have nonzero binomial uncertainty,True
+corrected geometry equals direct train across all protocols,True
+prediction mean/covariance decomposition across all protocols,True
+domain path includes diagonal pairs,True
+domain source and target references differ,True
+isotropic orthogonal orbit lies in exact norm interval,True
+full-rank CCA invariant under an invertible source map,True
+single symmetric CKA mapping respects empirical MAE floor,True
+cached Gram CKA equals feature-space CKA,True
+native feature bundle round trip,True
+saved train/calibration/test IDs are disjoint,True
+saved example losses recover final pair means,True

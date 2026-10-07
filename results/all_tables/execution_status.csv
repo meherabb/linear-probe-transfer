@@ -1,0 +1,20 @@
+task,state,detail
+core_checks,COMPLETED,13 assertions
+bounded_inference_simulation,COMPLETED,1000 independent repetitions at each of three sample sizes
+gaussian_oracle_simulation,COMPLETED,Correctly specified model only; separate estimand
+rates_and_invariance,COMPLETED,Fresh simulations; no rate-anomaly claim
+full_synthetic_protocols,COMPLETED,9 protocols with paired IDs and fixed calibration/test
+gpt2_sst2,COMPLETED,17 protocol/split runs; raw block features; paper profile
+gpt2_agnews,COMPLETED,17 protocol/split runs; raw block features; paper profile
+gpt2_cola,COMPLETED,17 protocol/split runs; raw block features; paper profile
+pythia_sst2,COMPLETED,17 protocol/split runs; raw block features; paper profile
+bert_sst2,COMPLETED,17 protocol/split runs; raw block features; paper profile
+gpt2_medium_sst2,COMPLETED,17 protocol/split runs; raw block features; paper profile
+gpt2_allocine,COMPLETED,17 protocol/split runs; raw block features; paper profile
+gpt2_nll,COMPLETED,17 protocol/split runs; raw block features; paper profile
+gpt2_sst2_sensitivity,COMPLETED,22 sensitivity settings
+bert_sst2_sensitivity,COMPLETED,22 sensitivity settings
+domain_pipeline_validation,COMPLETED,Frozen source maps and separate target references exercised
+sst2_to_imdb,COMPLETED,9 source-to-target runs; target-label use explicit
+sst2_to_allocine,COMPLETED,9 source-to-target runs; target-label use explicit
+uncertainty_and_scope_audits,COMPLETED,"Paired-example diagnostics, orbit scope, schema and checkpoint checks"
